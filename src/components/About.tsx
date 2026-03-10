@@ -6,11 +6,9 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Full Stack Developer with 4+ years of experience building scalable web
-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
-          in microservices architecture, CMS development, and low-code platforms.
-          Passionate about creating high-performance, production-ready solutions
-          from concept to deployment.
+         Hi, I'm Sangram Das, a 4th-year B.Tech CSE student passionate about full-stack web development.
+I have experience with HTML, CSS, JavaScript, React.js, Next.js, Java, Advanced Java, JDBC, and Servlets.
+I enjoy building modern web applications and continuously learning new technologies to become a skilled Software Engineer.
         </p>
       </div>
     </div>

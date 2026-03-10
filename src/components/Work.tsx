@@ -5,9 +5,9 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
+    title: "Doc App",
+    category: "Appointment Booking",
+    tools: "Angular, Next.js, NestJS, PostgreSQL",
     image: "/images/Solidx.png",
   },
   {
@@ -66,7 +66,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          My <span>Projects</span>
         </h2>
 
         <div className="carousel-wrapper">
