@@ -89,6 +89,32 @@
   position: relative;
 }
 
+.landing-top-photo {
+  position: absolute;
+  top: 110px; /* below the fixed navbar */
+  right: 5%;
+  transform: none;
+  z-index: 20;
+
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  /* subtle visual separation from the background */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .landing-top-photo {
+    top: 95px;
+    right: 8%;
+    width: 140px;
+    height: 140px;
+  }
+}
+
 .character-rim {
   position: absolute;
   width: 400px;

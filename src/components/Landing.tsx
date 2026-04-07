@@ -5,6 +5,11 @@ const Landing = ({ children }: PropsWithChildren) => {
   return (
     <>
       <div className="landing-section" id="landingDiv">
+        <img
+          className="landing-top-photo"
+          src="/images/profile.jpg"
+          alt="Sangram Das"
+        />
         <div className="landing-container">
           <div className="landing-intro">
             <h2>Hello! I'm</h2>

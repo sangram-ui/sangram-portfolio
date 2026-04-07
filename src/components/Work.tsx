@@ -5,11 +5,13 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Doc App",
+    title: "Doctor Appointment Booking System",
     category: "Appointment Booking",
     tools: "Angular, Next.js, NestJS, PostgreSQL",
-    image: "/images/Solidx.png",
+    image: "/images/doctorapp.jpg",
+    link: "https://doctor-appointmentsystem.vercel.app/",
   },
+  /*
   {
     title: "Radix",
     category: "E-Commerce",
@@ -34,6 +36,7 @@ const projects = [
     tools: "React.js, Node.js, Microservices",
     image: "/images/Maxlife.png",
   },
+  */
 ];
 
 const Work = () => {
@@ -115,7 +118,11 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                        link={project.link}
+                      />
                     </div>
                   </div>
                 </div>
